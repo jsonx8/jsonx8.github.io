@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="Cache-Control" content="no-transform" />
+<!-- pages are not cached -->
+<meta name="applicable-device"content="pc,mobile">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+<title></title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link rel="stylesheet" href="../css/reset.css" />
+<link rel="stylesheet" href="../css/style.css" />
+<link rel="stylesheet" href="../css/responsive.css" />
+
+</head>
+
+<body>
+	<div class="layout" id="layout">
+		<div class="header fheadhei">
+			<div class="wrap">
+				<div class="fpadd">
+					<div class="fbpadd clearfix">
+						
+						<a href="#" class="logo"><img src="../images/logo.png" ></a>
+						<div class="gh" onclick="fgh()">
+							<a href="#"></a>
+						</div>
+						<div class="rts clearfix">
+							<div class="naver" id="naver">
+								<ul class="clearfix">
+									<li><h3><a href="../index.html">Home</a></h3></li>
+									<li class="on"><h3><a href="list.html">Books</a></h3></li>
+									<li><h3><a href="#">Events</a></h3></li>
+									<li><h3><a href="#">About Us</a></h3></li>
+								</ul>
+							</div>
+							<div class="fsearch clearfix">
+								<input type="text"  class="text" />
+								<div class="ico">
+									<a href="search.html"><img src="../images/fico1.png" ></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="fcheckout">
+			<div class="wrap">
+				<div class="fpadd">
+					<div class="fbpadd">
+						<form action="" method="post">
+							<div class="fshpage wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1s">
+								<ul class="clearfix">
+									<li><h5><a href="#">Shopping cart</a></h5></li>
+									<li class="on"><h5><a href="#">submit order</a></h5></li>
+								</ul>
+							</div>
+							<div class="freceiving">
+								<div class="ftlt clearfix wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1s">
+									<h3>Receiving address</h3>
+									<h4>Manage address</h4>
+								</div>
+								<div class="list wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1s">
+									<ul>
+										<li>
+											<label>full name*</label>
+											<input id="text" type="text" class="text" />
+										</li>
+										<li>
+											<div class="flol clearfix">
+												<label>address*</label>
+												<input type="text" class="text" />
+											</div>
+											<div class="flo clearfix">
+												<label class="fn1">Postcode*</label>
+												<input type="text" class="text post" />
+											</div>
+										</li>
+										<li>
+											<label>&nbsp;</label>
+											<input type="text" class="text address" />
+											<p>Address details: house number, etc*</p>
+										</li>
+										<li>
+											<label>Telephone*</label>
+											<input type="text" class="text" />
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="fpayment">
+								<div class="ftlt clearfix wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1s">
+									<h3>payment method</h3>
+									<h4>View limits&payment help</h4>
+								</div>
+								<div class="onlin wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1s">
+									<h4><i>Online payment </i>(freight free)</h4>
+									<a href="#" class="paym">payment platform</a>
+								</div>
+								<div class="list wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1s">
+									<ul class="clearfix">
+										<li><a href="#"><img src="../images/fn4.png" ></a></li>
+										<li><a href="#"><img src="../images/fn5.png" ></a></li>
+										<li><a href="#"><img src="../images/fn6.png" ></a></li>
+										<li><a href="#"><img src="../images/fn7.png" ></a></li>
+									</ul>
+								</div>
+								<div class="cash wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1s">
+									<input type="checkbox" name="fc" id="fc1" value="" />
+									<label for="fc1">Cash on delivery (not supported in some regions)</label>
+								</div>
+							</div>
+							<div class="fconflrm">
+								<div class="ftite wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1s">
+									<h3>Confirm order informatioN</h3>
+								</div>
+								<div class="fproduct">
+									<div class="tlt">
+										<ul>
+											<li>Trade name</li>
+											<li>Unit Price</li>
+											<li>quantity</li>
+											<li>total</li>
+										</ul>
+									</div>
+									<div class="prod">
+										<ul>
+											<li>
+												<a href="#">
+													<div class="img">
+														<img src="../images/fimg43.png" >
+													</div>
+													<div class="tet">
+														Little Book of Concorde
+													</div>
+												</a>
+											</li>
+											<li><h4>9.49</h4></li>
+											<li><h4>1</h4></li>
+											<li><h4>9.49</h4></li>
+										</ul>
+									</div>
+									<div class="dels clearfix">
+										<div class="lts">
+											<ul>
+												<li>
+													<label>Discount:</label>
+													<input type="text" class="text" />
+													<a href="#" class="conflrm">confirm</a>
+												</li>
+												<li>
+													<label>Gift card:</label>
+													<input type="text" class="text" />
+													<a href="#" class="conflrm">confirm</a>
+												</li>
+											</ul>
+										</div>
+										<div class="rts">
+											<ul>
+												<li>
+													<div class="lt">
+														<h5><i>subtotal:</i></h5>
+													</div>
+													<div class="rt">
+														<h6>9.49</h6>
+													</div>
+												</li>
+												<li>
+													<div class="lt">
+														<h5>freight:</h5>
+													</div>
+													<div class="rt">
+														<h6>5</h6>
+													</div>
+												</li>
+												<li>
+													<div class="lt">
+														<h5>Preferential:</h5>
+													</div>
+													<div class="rt">
+														<h6>-5</h6>
+													</div>
+												</li>
+												<li>
+													<div class="lt">
+														<h5><em>Points collected: 648</em><i>total:</i></h5>
+													</div>
+													<div class="rt">
+														<h6><i>$9.49</i></h6>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="fproceout">
+										<a href="#" class="fproceed" id="ubtns">proceed to checkout</a>
+									</div>
+								</div>
+							</div>
+							<div class="fplease wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1s">
+								<p>Please pay as soon as possible. If it exceeds 1 hour, the order will be cancelled</p>
+								<a href="#">Shopping process</a>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="footer">
+			<div class="wrap">
+				<div class="fpadd">
+					<div class="fbpadd">
+						<!-- <div class="fnav">
+							<ul>
+								<li><a href="#">About US</a></li>
+								<li><a href="#">business cooperation</a></li>
+								<li><a href="#">recruitment</a></li>
+								<li><a href="#">contact us</a></li>
+								<li><a href="#">link</a></li>
+							</ul>
+						</div> -->
+						<div class="copyright">
+							<a href="#">copyright © 2022-2022    Site backup license：SDHUVIDGRHF52V54D56FV4654654VBDF54V</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="fxuanfu" id="fxuanfu">
+		<div class="dj" id="fdj">
+			
+		</div>
+		<ul>
+			<li><a href="#">
+				<div class="ico"><img src="../images/fico2.png" ></div>
+				<h6>personal</h6>
+			</a></li>
+			<li class="fgowu" id="fgowu"><a href="javascript: ;">
+				<div class="ico"><img src="../images/fico3.png" ></div>
+				<h6>Cart</h6>
+			</a></li>
+		</ul>
+	</div>
+	
+	<div class="ftitles " id="ftitles">
+		<div class="next" id="fnext"></div>
+		<div class="fprodulis">
+			<div class="tite">
+				<ul>
+					<li>
+						<input type="checkbox" name="fk" id="all" />
+						<label for="all"></label>
+					</li>
+					<li>Titles of books</li>
+					<li>number</li>
+					<li>price</li>
+				</ul>
+			</div>
+			<div class="list">
+				<ul>
+					<li>
+						<dl>
+							<dd>
+								<input class="fc" type="checkbox" name="fk" id="fk2" />
+								<label class="fk" for="fk2"></label>
+							</dd>
+							<dd><a href="#">
+								<div class="img">
+									<img src="../images/fimg47.jpg" >
+								</div>
+								<div class="tet">
+									B-52 Stratof The Complete History
+									 the World Longest Serving
+								</div>
+							</a></dd>
+							<dd>
+								<div class="cen">
+									<div class="ji jian" onclick="minus(this)"><img src="../images/fico13.png" ></div>
+									<input type="text" value="1" class="ftext" />
+									<div class="ji jia" onclick="add(this)"><img src="../images/fico14.png" ></div>
+								</div>
+							</dd>
+							<dd><h3>17</h3><h3>17</h3></dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dd>
+								<input class="fc" type="checkbox" name="fk" id="fk3" />
+								<label class="fk" for="fk3"></label>
+							</dd>
+							<dd><a href="#">
+								<div class="img">
+									<img src="../images/fimg48.jpg" >
+								</div>
+								<div class="tet">
+									Little Book of Concorde
+								</div>
+							</a></dd>
+							<dd>
+								<div class="cen">
+									<div class="ji jian" onclick="minus(this)"><img src="../images/fico13.png" ></div>
+									<input type="text" value="1" class="ftext" />
+									<div class="ji jia" onclick="add(this)"><img src="../images/fico14.png" ></div>
+								</div>
+							</dd>
+							<dd><h3>9</h3><h3>9</h3></dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dd>
+								<input class="fc" type="checkbox" name="fk" id="fk4" />
+								<label class="fk" for="fk4"></label>
+							</dd>
+							<dd><a href="#">
+								<div class="img">
+									<img src="../images/fimg49.jpg" >
+								</div>
+								<div class="tet">
+									Lords of the Sky: Fighter Pilots and Air Combat
+								</div>
+							</a></dd>
+							<dd>
+								<div class="cen">
+									<div class="ji jian" onclick="minus(this)"><img src="../images/fico13.png" ></div>
+									<input type="text" value="1" class="ftext" />
+									<div class="ji jia" onclick="add(this)"><img src="../images/fico14.png" ></div>
+								</div>
+							</dd>
+							<dd><h3>10</h3><h3>10</h3></dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dd>
+								<input class="fc" type="checkbox" name="fk" id="fk5" />
+								<label class="fk" for="fk5"></label>
+							</dd>
+							<dd><a href="#">
+								<div class="img">
+									<img src="../images/fimg50.jpg" >
+								</div>
+								<div class="tet">
+									Classics: U.S. Aircraft of World War II
+								</div>
+							</a></dd>
+							<dd>
+								<div class="cen">
+									<div class="ji jian" onclick="minus(this)"><img src="../images/fico13.png" ></div>
+									<input type="text" value="1" class="ftext" />
+									<div class="ji jia" onclick="add(this)"><img src="../images/fico14.png" ></div>
+								</div>
+							</dd>
+							<dd><h3>39</h3><h3>39</h3></dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dd>
+								<input class="fc" type="checkbox" name="fk" id="fk6" />
+								<label class="fk" for="fk6"></label>
+							</dd>
+							<dd><a href="#">
+								<div class="img">
+									<img src="../images/fimg51.jpg" >
+								</div>
+								<div class="tet">
+									Hell Island: Canadian Pilots and the 1942 Air Battle for Malta
+								</div>
+							</a></dd>
+							<dd>
+								<div class="cen">
+									<div class="ji jian" onclick="minus(this)"><img src="../images/fico13.png" ></div>
+									<input type="text" value="1" class="ftext" />
+									<div class="ji jia" onclick="add(this)"><img src="../images/fico14.png" ></div>
+								</div>
+							</dd>
+							<dd><h3>20</h3><h3>20</h3></dd>
+						</dl>
+					</li>
+				</ul>
+			</div>
+			<div class="dels">
+				<div class="total">
+					<ul>
+						<li><h5>Subtotal：</h5>$<h6 id="sum">0</h6></li>
+						<li><h5>GST(5%)：</h5>$<h6 id="sum1">0.50</h6></li>
+						<li><h5><i>Total：</i></h5>$<h6 id="sum2"><i>0</i></h6></li>
+					</ul>
+				</div>
+				<div class="clearfix">
+					<a href="checkout.html" class="fplace">place order</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div class="fpleaseyour fplyour" id="fplyour1">
+		<div class="cha" onclick="btn()"></div>
+		<div class="text">
+			<h2>Please Enter Your Information!</h2>
+			<a href="#" class="ok" onclick="btn()">OK</a>
+		</div>
+	</div>
+	
+	<div class="fpleaseyour fplyour1" id="fplyour2">
+		<div class="cha" onclick="btn()"></div>
+		<div class="text">
+			<h2>ORDER CONFIRMED!</h2>
+			<a href="#" class="ok" onclick="btn()">OK</a>
+		</div>
+	</div>
+	
+	<script type="text/javascript">
+		
+		var ubtns = document.getElementById("ubtns");
+		var text = document.getElementById("text");
+		var fplyour1 = document.getElementById("fplyour1");
+		var fplyour2 = document.getElementById("fplyour2");
+		ubtns.onclick= function(){
+			if(text.value != ''){
+				fplyour2.style.display = "block";
+			}else{
+				fplyour1.style.display = "block";
+			}
+		}
+		
+		
+		function btn(){
+			fplyour1.style.display = "none";
+			fplyour2.style.display = "none";
+		};
+		
+	</script>
+	
+
+	<script src="../js/script.js"></script>
+</body>
+</html>
